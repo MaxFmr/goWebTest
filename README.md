@@ -1,24 +1,23 @@
-Introduction :
+Introduction : 
 
-Technologies utilisées : NextJS TypeScript Styled-Components
-
-Tools : ESlint, Prettier
 
 FR/
 Ce projet d'application répond à la vérification des compétences par l'agence GoWeb.
+
 En constatant que la fakeStore API ne permettait pas l'update des données en base de données.
-J'ai établi un contexte d'états centralisé grâce à la context API de React. Cela permet de simuler un comportement plus proche
+J'ai établi un contexte d'états centralisé grâce à la context API de React. Cela permet de simuler un comportement plus proche 
 d'une réelle expérience utilisateur.
 
-Le context est initialisé dans le fichier "/context/context.ts".
-Le Provider et les états se trouvent au sein du fichier "pages/\_app.tsx"
+Le context est initialisé et typé dans le fichier "/context/context.ts". 
+Le Provider et les états se trouvent au sein du fichier "pages/_app.tsx"
 
-Certaines fonctionalités ont été ajoutées par interprétation de la maquette imposée et dans une démarche UX :
-
+Certaines fonctionalités ont été ajoutées par interprétation de la maquette imposée et dans une démarche UX : 
 - Filtre des produits par catégories
 - Mise en évidence du produit dont le prix a été actualisé.
 
+
 Le design est responsive sur mobile.
+
 
 EN/
 This sofware project answers the checking of the skills by GoWeb agency.
@@ -27,16 +26,23 @@ I settled a context of states thanks to the API context of React.JS.
 It enables to simulate the behaviour of a real user experience.
 
 The context is set in the "/context/context.ts" folder.
-The states and the context Provider are in "pages/\_app.tsx" folder.
+The states and the context Provider are in "pages/_app.tsx" folder.
 
-Some additional features have been added by an analysis of the mockup :
-
+Some additional features have been added by an analysis of the mockup : 
 - Products filter by categories
 - highlighting updated products
 
 The design is mobile responsive.
 
-GitHub private repository on demand : https://github.com/MaxFmr/Go-WebTest
+
+Technologies utilisées : NextJS TypeScript Styled-Components
+
+Online preview : https://go-web-test-y6xs.vercel.app/
+
+Github private repository on demand : https://github.com/MaxFmr/goWebTest
+
+Ask an access to : maxime.kerlidou@gmail.com
+
 
 Get started :
 
