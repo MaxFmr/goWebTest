@@ -13,9 +13,6 @@ module.exports = {
     // see https://styled-components.com/docs/tooling#babel-plugin for more info on the options.
     styledComponents: true,
   },
-};
-
-module.exports = {
   eslint: {
     // Warning: This allows production builds to successfully complete even if
     // your project has ESLint errors.
