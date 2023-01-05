@@ -14,7 +14,7 @@ const Details = ({}) => {
   const updateProductPrice = value?.updateProductPrice;
   const selectedPrice = value?.selectedProduct?.price;
 
-  const [price, setPrice] = useState<number | undefined>();
+  const [price, setPrice] = useState<number | undefined>(selectedPrice);
   return (
     <StyledDetails
       category={selectedProduct?.category}
