@@ -14,7 +14,7 @@ const Details = ({}) => {
   const updateProductPrice = value?.updateProductPrice;
   const selectedPrice = value?.selectedProduct?.price;
 
-  const [price, setPrice] = useState<number | undefined>(selectedPrice);
+  const [price, setPrice] = useState<number | undefined>();
   return (
     <StyledDetails
       category={selectedProduct?.category}
@@ -51,8 +51,8 @@ const Details = ({}) => {
                 <div className='priceTag'>
                   <div className='input'>
                     <input
-                      type='text'
-                      placeholder={JSON.stringify(price)}
+                      type='number'
+                      placeholder={JSON.stringify(selectedPrice)}
                       onChange={(e) => setPrice(parseFloat(e.target.value))}
                     />
                     <span>€</span>
