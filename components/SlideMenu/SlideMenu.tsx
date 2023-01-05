@@ -5,6 +5,16 @@ import { BsFillCircleFill } from 'react-icons/bs';
 import { RiMenuFoldFill } from 'react-icons/ri';
 import { Dispatch, SetStateAction } from 'react';
 
+/**
+ * Popup menu for smaller screen with conditional display
+ *
+ * @props :
+ * - Display Boolean
+ * - Action to close menu
+ *
+ *
+ */
+
 type slideMenuProps = {
   displayMenu: boolean;
   setDisplayMenu: Dispatch<SetStateAction<boolean>>;

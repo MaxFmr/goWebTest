@@ -5,6 +5,11 @@ import { useRouter } from 'next/router';
 import StyledProductItem from './ProductItem.style';
 import includeVat from '../../utils/vat';
 
+/**
+ * This component take the full Product Object as prop
+ * @prop: Product as Product
+ */
+
 type itemProps = { product: Product };
 
 const ProductItem = ({ product }: itemProps): JSX.Element => {

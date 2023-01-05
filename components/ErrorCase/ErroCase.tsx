@@ -4,6 +4,11 @@ import Context from '../../context/context';
 import axios from 'axios';
 import StyledError from './ErrorCase.style';
 
+/**
+ * This componant appeat when user make a refesh of the page with his browser
+ *
+ */
+
 const ErrorCase = () => {
   const router = useRouter();
   const value = useContext(Context);
