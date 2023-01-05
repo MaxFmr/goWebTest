@@ -31,6 +31,7 @@ const StyledDetails = styled.section<{
       display: flex;
       text-align: center;
       align-self: center;
+      width: 70%;
 
       h1 {
         color: #564aff;
